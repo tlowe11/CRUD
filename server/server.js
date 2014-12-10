@@ -13,12 +13,15 @@ var methodOverride = require('method-override')
 //simulate DELETE and PUT (express4)
 
 //configuration
-mongoose.connect('mongodb://localhost:27017/todo')
+mongoose.connect('mongodb://localhost:27017/mytodo')
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
 db.once('open', function callback () {
 	console.log("connected to mongo");
 });
+
+
+
 //connects to mongodb
 app.use(express.static(__dirname + '/public'));
 //set the static files location
@@ -35,8 +38,11 @@ app.use(methodOverride());
 //define model
 var Todo = mongoose.model('Todo', {
 	text : String,
-	dueDate : { type: Date, default: Date.now }
+	dueDate : { type: Date, default: Date.now },
+	done: false
 });
+
+
 // listen (start app with node server.js) ======================================
 app.listen(8080);
 console.log("App listening on port 8080");
@@ -95,4 +101,4 @@ console.log("App listening on port 8080");
                 res.json(todos);
             });
         });
-    });3
+    });
