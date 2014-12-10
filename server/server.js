@@ -14,6 +14,11 @@ var methodOverride = require('method-override')
 
 //configuration
 mongoose.connect('mongodb://localhost:27017/todo')
+var db = mongoose.connection;
+db.on('error', console.error.bind(console, 'connection error:'));
+db.once('open', function callback () {
+	console.log("connected to mongo");
+});
 //connects to mongodb
 app.use(express.static(__dirname + '/public'));
 //set the static files location
@@ -29,7 +34,7 @@ app.use(methodOverride());
 
 //define model
 var Todo = mongoose.model('Todo', {
-	text : String, 
+	text : String,
 	dueDate : { type: Date, default: Date.now }
 });
 // listen (start app with node server.js) ======================================
