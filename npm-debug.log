@@ -1,0 +1,532 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/taylor/.nvm/v0.10.33/bin/node',
+1 verbose cli   '/Users/taylor/.nvm/v0.10.33/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'express',
+1 verbose cli   'morgan',
+1 verbose cli   'bodu-parser',
+1 verbose cli   'method-override',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 warn package.json todoapp@1.0.0 No repository field.
+5 warn package.json todoapp@1.0.0 No README data
+6 verbose readDependencies using package.json deps
+7 verbose cache add [ 'express', null ]
+8 verbose cache add name=undefined spec="express" args=["express",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'express',
+9 verbose parsed url   path: 'express',
+9 verbose parsed url   href: 'express' }
+10 verbose cache add [ 'morgan', null ]
+11 verbose cache add name=undefined spec="morgan" args=["morgan",null]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: 'morgan',
+12 verbose parsed url   path: 'morgan',
+12 verbose parsed url   href: 'morgan' }
+13 verbose cache add [ 'bodu-parser', null ]
+14 verbose cache add name=undefined spec="bodu-parser" args=["bodu-parser",null]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: 'bodu-parser',
+15 verbose parsed url   path: 'bodu-parser',
+15 verbose parsed url   href: 'bodu-parser' }
+16 verbose cache add [ 'method-override', null ]
+17 verbose cache add name=undefined spec="method-override" args=["method-override",null]
+18 verbose parsed url { protocol: null,
+18 verbose parsed url   slashes: null,
+18 verbose parsed url   auth: null,
+18 verbose parsed url   host: null,
+18 verbose parsed url   port: null,
+18 verbose parsed url   hostname: null,
+18 verbose parsed url   hash: null,
+18 verbose parsed url   search: null,
+18 verbose parsed url   query: null,
+18 verbose parsed url   pathname: 'method-override',
+18 verbose parsed url   path: 'method-override',
+18 verbose parsed url   href: 'method-override' }
+19 silly lockFile f3c62de4-express express
+20 verbose lock express /Users/taylor/.npm/f3c62de4-express.lock
+21 silly lockFile 519bc3f0-morgan morgan
+22 verbose lock morgan /Users/taylor/.npm/519bc3f0-morgan.lock
+23 silly lockFile 252beb8c-bodu-parser bodu-parser
+24 verbose lock bodu-parser /Users/taylor/.npm/252beb8c-bodu-parser.lock
+25 silly lockFile 0b00fa9d-method-override method-override
+26 verbose lock method-override /Users/taylor/.npm/0b00fa9d-method-override.lock
+27 silly lockFile f3c62de4-express express
+28 silly lockFile f3c62de4-express express
+29 silly lockFile 519bc3f0-morgan morgan
+30 silly lockFile 519bc3f0-morgan morgan
+31 silly lockFile 252beb8c-bodu-parser bodu-parser
+32 silly lockFile 252beb8c-bodu-parser bodu-parser
+33 verbose addNamed [ 'express', '' ]
+34 verbose addNamed [ null, '*' ]
+35 silly lockFile 64a534c1-express express@
+36 verbose lock express@ /Users/taylor/.npm/64a534c1-express.lock
+37 verbose addNamed [ 'morgan', '' ]
+38 verbose addNamed [ null, '*' ]
+39 silly lockFile aca3bbc6-morgan morgan@
+40 verbose lock morgan@ /Users/taylor/.npm/aca3bbc6-morgan.lock
+41 silly lockFile 0b00fa9d-method-override method-override
+42 silly lockFile 0b00fa9d-method-override method-override
+43 verbose addNamed [ 'bodu-parser', '' ]
+44 verbose addNamed [ null, '*' ]
+45 silly lockFile 0f3d8e82-bodu-parser bodu-parser@
+46 verbose lock bodu-parser@ /Users/taylor/.npm/0f3d8e82-bodu-parser.lock
+47 verbose addNamed [ 'method-override', '' ]
+48 verbose addNamed [ null, '*' ]
+49 silly lockFile dd70539b-method-override method-override@
+50 verbose lock method-override@ /Users/taylor/.npm/dd70539b-method-override.lock
+51 silly addNameRange { name: 'express', range: '*', hasData: false }
+52 silly addNameRange { name: 'morgan', range: '*', hasData: false }
+53 silly addNameRange { name: 'bodu-parser', range: '*', hasData: false }
+54 silly addNameRange { name: 'method-override', range: '*', hasData: false }
+55 verbose request where is /bodu-parser
+56 verbose request registry https://registry.npmjs.org/
+57 verbose request id bce3f4797b0f4218
+58 verbose url raw /bodu-parser
+59 verbose url resolving [ 'https://registry.npmjs.org/', './bodu-parser' ]
+60 verbose url resolved https://registry.npmjs.org/bodu-parser
+61 verbose request where is https://registry.npmjs.org/bodu-parser
+62 info trying registry request attempt 1 at 16:35:30
+63 http GET https://registry.npmjs.org/bodu-parser
+64 verbose request where is /morgan
+65 verbose request registry https://registry.npmjs.org/
+66 verbose url raw /morgan
+67 verbose url resolving [ 'https://registry.npmjs.org/', './morgan' ]
+68 verbose url resolved https://registry.npmjs.org/morgan
+69 verbose request where is https://registry.npmjs.org/morgan
+70 info trying registry request attempt 1 at 16:35:30
+71 verbose etag "B0YDOS0SS3SP3L2XWRILMHMIV"
+72 http GET https://registry.npmjs.org/morgan
+73 verbose request where is /express
+74 verbose request registry https://registry.npmjs.org/
+75 verbose url raw /express
+76 verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+77 verbose url resolved https://registry.npmjs.org/express
+78 verbose request where is https://registry.npmjs.org/express
+79 info trying registry request attempt 1 at 16:35:30
+80 verbose etag "ANRW6H3N2X8N53G0V20AJPOIF"
+81 http GET https://registry.npmjs.org/express
+82 verbose request where is /method-override
+83 verbose request registry https://registry.npmjs.org/
+84 verbose url raw /method-override
+85 verbose url resolving [ 'https://registry.npmjs.org/', './method-override' ]
+86 verbose url resolved https://registry.npmjs.org/method-override
+87 verbose request where is https://registry.npmjs.org/method-override
+88 info trying registry request attempt 1 at 16:35:30
+89 verbose etag "ARSLRG3HPV6L40NZ27OSUG5GE"
+90 http GET https://registry.npmjs.org/method-override
+91 http 304 https://registry.npmjs.org/morgan
+92 silly registry.get cb [ 304,
+92 silly registry.get   { date: 'Wed, 10 Dec 2014 00:35:31 GMT',
+92 silly registry.get     server: 'Apache',
+92 silly registry.get     via: '1.1 varnish',
+92 silly registry.get     'last-modified': 'Wed, 10 Dec 2014 00:35:31 GMT',
+92 silly registry.get     'cache-control': 'max-age=60',
+92 silly registry.get     etag: '"B0YDOS0SS3SP3L2XWRILMHMIV"',
+92 silly registry.get     age: '14',
+92 silly registry.get     'x-served-by': 'cache-sjc3128-SJC',
+92 silly registry.get     'x-cache': 'HIT',
+92 silly registry.get     'x-cache-hits': '1',
+92 silly registry.get     'x-timer': 'S1418171731.274577,VS0,VE0',
+92 silly registry.get     vary: 'Accept',
+92 silly registry.get     'content-length': '0',
+92 silly registry.get     'keep-alive': 'timeout=10, max=50',
+92 silly registry.get     connection: 'Keep-Alive' } ]
+93 verbose etag https://registry.npmjs.org/morgan from cache
+94 silly addNameRange number 2 { name: 'morgan', range: '*', hasData: true }
+95 silly addNameRange versions [ 'morgan',
+95 silly addNameRange   [ '1.0.0',
+95 silly addNameRange     '1.0.1',
+95 silly addNameRange     '1.1.0',
+95 silly addNameRange     '1.1.1',
+95 silly addNameRange     '1.2.0',
+95 silly addNameRange     '1.2.1',
+95 silly addNameRange     '1.2.2',
+95 silly addNameRange     '1.2.3',
+95 silly addNameRange     '1.3.0',
+95 silly addNameRange     '1.3.1',
+95 silly addNameRange     '1.3.2',
+95 silly addNameRange     '1.4.0',
+95 silly addNameRange     '1.4.1',
+95 silly addNameRange     '1.5.0' ] ]
+96 verbose addNamed [ 'morgan', '1.5.0' ]
+97 verbose addNamed [ '1.5.0', '1.5.0' ]
+98 silly lockFile 2a4cac9b-morgan-1-5-0 morgan@1.5.0
+99 verbose lock morgan@1.5.0 /Users/taylor/.npm/2a4cac9b-morgan-1-5-0.lock
+100 silly lockFile 2a4cac9b-morgan-1-5-0 morgan@1.5.0
+101 silly lockFile 2a4cac9b-morgan-1-5-0 morgan@1.5.0
+102 silly lockFile aca3bbc6-morgan morgan@
+103 silly lockFile aca3bbc6-morgan morgan@
+104 http 404 https://registry.npmjs.org/bodu-parser
+105 verbose headers { date: 'Wed, 10 Dec 2014 00:35:31 GMT',
+105 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+105 verbose headers   'content-type': 'application/json',
+105 verbose headers   'cache-control': 'max-age=0',
+105 verbose headers   'content-length': '52',
+105 verbose headers   'accept-ranges': 'bytes',
+105 verbose headers   via: '1.1 varnish',
+105 verbose headers   age: '0',
+105 verbose headers   'x-served-by': 'cache-sjc3129-SJC',
+105 verbose headers   'x-cache': 'MISS',
+105 verbose headers   'x-cache-hits': '0',
+105 verbose headers   'x-timer': 'S1418171731.273339,VS0,VE88',
+105 verbose headers   'keep-alive': 'timeout=10, max=50',
+105 verbose headers   connection: 'Keep-Alive' }
+106 silly registry.get cb [ 404,
+106 silly registry.get   { date: 'Wed, 10 Dec 2014 00:35:31 GMT',
+106 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+106 silly registry.get     'content-type': 'application/json',
+106 silly registry.get     'cache-control': 'max-age=0',
+106 silly registry.get     'content-length': '52',
+106 silly registry.get     'accept-ranges': 'bytes',
+106 silly registry.get     via: '1.1 varnish',
+106 silly registry.get     age: '0',
+106 silly registry.get     'x-served-by': 'cache-sjc3129-SJC',
+106 silly registry.get     'x-cache': 'MISS',
+106 silly registry.get     'x-cache-hits': '0',
+106 silly registry.get     'x-timer': 'S1418171731.273339,VS0,VE88',
+106 silly registry.get     'keep-alive': 'timeout=10, max=50',
+106 silly registry.get     connection: 'Keep-Alive' } ]
+107 silly lockFile 0f3d8e82-bodu-parser bodu-parser@
+108 silly lockFile 0f3d8e82-bodu-parser bodu-parser@
+109 http 200 https://registry.npmjs.org/express
+110 silly registry.get cb [ 200,
+110 silly registry.get   { date: 'Wed, 10 Dec 2014 00:35:31 GMT',
+110 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+110 silly registry.get     etag: '"58F4C7P12XNWWWN5P64BIO4MD"',
+110 silly registry.get     'content-type': 'application/json',
+110 silly registry.get     'cache-control': 'max-age=60',
+110 silly registry.get     'content-length': '431634',
+110 silly registry.get     'accept-ranges': 'bytes',
+110 silly registry.get     via: '1.1 varnish',
+110 silly registry.get     age: '14',
+110 silly registry.get     'x-served-by': 'cache-sjc3126-SJC',
+110 silly registry.get     'x-cache': 'HIT',
+110 silly registry.get     'x-cache-hits': '1',
+110 silly registry.get     'x-timer': 'S1418171731.296606,VS0,VE1',
+110 silly registry.get     vary: 'Accept',
+110 silly registry.get     'keep-alive': 'timeout=10, max=50',
+110 silly registry.get     connection: 'Keep-Alive' } ]
+111 silly addNameRange number 2 { name: 'express', range: '*', hasData: true }
+112 silly addNameRange versions [ 'express',
+112 silly addNameRange   [ '0.14.0',
+112 silly addNameRange     '0.14.1',
+112 silly addNameRange     '1.0.0',
+112 silly addNameRange     '1.0.1',
+112 silly addNameRange     '1.0.2',
+112 silly addNameRange     '1.0.3',
+112 silly addNameRange     '1.0.4',
+112 silly addNameRange     '1.0.5',
+112 silly addNameRange     '1.0.6',
+112 silly addNameRange     '1.0.7',
+112 silly addNameRange     '1.0.8',
+112 silly addNameRange     '2.0.0',
+112 silly addNameRange     '2.1.0',
+112 silly addNameRange     '2.1.1',
+112 silly addNameRange     '2.2.0',
+112 silly addNameRange     '2.2.1',
+112 silly addNameRange     '2.2.2',
+112 silly addNameRange     '2.3.0',
+112 silly addNameRange     '2.3.1',
+112 silly addNameRange     '2.3.2',
+112 silly addNameRange     '2.3.3',
+112 silly addNameRange     '2.3.4',
+112 silly addNameRange     '2.3.5',
+112 silly addNameRange     '2.3.6',
+112 silly addNameRange     '2.3.7',
+112 silly addNameRange     '2.3.8',
+112 silly addNameRange     '2.3.9',
+112 silly addNameRange     '2.3.10',
+112 silly addNameRange     '2.3.11',
+112 silly addNameRange     '2.3.12',
+112 silly addNameRange     '2.4.0',
+112 silly addNameRange     '2.4.1',
+112 silly addNameRange     '2.4.2',
+112 silly addNameRange     '2.4.3',
+112 silly addNameRange     '2.4.4',
+112 silly addNameRange     '2.4.5',
+112 silly addNameRange     '2.4.6',
+112 silly addNameRange     '2.4.7',
+112 silly addNameRange     '2.5.0',
+112 silly addNameRange     '2.5.1',
+112 silly addNameRange     '2.5.2',
+112 silly addNameRange     '2.5.3',
+112 silly addNameRange     '2.5.4',
+112 silly addNameRange     '2.5.5',
+112 silly addNameRange     '2.5.6',
+112 silly addNameRange     '2.5.7',
+112 silly addNameRange     '2.5.8',
+112 silly addNameRange     '2.5.9',
+112 silly addNameRange     '2.5.10',
+112 silly addNameRange     '2.5.11',
+112 silly addNameRange     '3.0.0',
+112 silly addNameRange     '3.0.1',
+112 silly addNameRange     '3.0.2',
+112 silly addNameRange     '3.0.3',
+112 silly addNameRange     '3.0.4',
+112 silly addNameRange     '3.0.5',
+112 silly addNameRange     '3.0.6',
+112 silly addNameRange     '3.1.0',
+112 silly addNameRange     '3.1.1',
+112 silly addNameRange     '3.1.2',
+112 silly addNameRange     '3.2.0',
+112 silly addNameRange     '3.2.1',
+112 silly addNameRange     '3.2.2',
+112 silly addNameRange     '3.2.3',
+112 silly addNameRange     '3.2.4',
+112 silly addNameRange     '3.2.5',
+112 silly addNameRange     '3.2.6',
+112 silly addNameRange     '3.3.0',
+112 silly addNameRange     '3.3.1',
+112 silly addNameRange     '3.3.2',
+112 silly addNameRange     '3.3.3',
+112 silly addNameRange     '3.3.4',
+112 silly addNameRange     '3.3.5',
+112 silly addNameRange     '3.3.6',
+112 silly addNameRange     '1.0.0-beta',
+112 silly addNameRange     '1.0.0-beta2',
+112 silly addNameRange     '1.0.0-rc',
+112 silly addNameRange     '1.0.0-rc2',
+112 silly addNameRange     '1.0.0-rc3',
+112 silly addNameRange     '1.0.0-rc4',
+112 silly addNameRange     '2.0.0-beta',
+112 silly addNameRange     '2.0.0-beta2',
+112 silly addNameRange     '2.0.0-beta3',
+112 silly addNameRange     '2.0.0-rc',
+112 silly addNameRange     '2.0.0-rc2',
+112 silly addNameRange     '2.0.0-rc3',
+112 silly addNameRange     '3.0.0-alpha1',
+112 silly addNameRange     '3.0.0-alpha2',
+112 silly addNameRange     '3.0.0-alpha3',
+112 silly addNameRange     '3.0.0-alpha4',
+112 silly addNameRange     '3.0.0-alpha5',
+112 silly addNameRange     '3.0.0-beta1',
+112 silly addNameRange     '3.0.0-beta2',
+112 silly addNameRange     '3.0.0-beta3',
+112 silly addNameRange     '3.0.0-beta4',
+112 silly addNameRange     '3.0.0-beta6',
+112 silly addNameRange     '3.0.0-beta7',
+112 silly addNameRange     '3.0.0-rc1',
+112 silly addNameRange     '3.0.0-rc2',
+112 silly addNameRange     '3.0.0-rc3',
+112 silly addNameRange     '3.0.0-rc4',
+112 silly addNameRange     '3.0.0-rc5',
+112 silly addNameRange     '3.3.7',
+112 silly addNameRange     '3.3.8',
+112 silly addNameRange     '3.4.0',
+112 silly addNameRange     '3.4.1',
+112 silly addNameRange     '3.4.2',
+112 silly addNameRange     '3.4.3',
+112 silly addNameRange     '3.4.4',
+112 silly addNameRange     '3.4.5',
+112 silly addNameRange     '3.4.6',
+112 silly addNameRange     '3.4.7',
+112 silly addNameRange     '3.4.8',
+112 silly addNameRange     '4.0.0-rc1',
+112 silly addNameRange     '4.0.0-rc2',
+112 silly addNameRange     '3.5.0',
+112 silly addNameRange     '4.0.0-rc3',
+112 silly addNameRange     '4.0.0-rc4',
+112 silly addNameRange     '3.5.1',
+112 silly addNameRange     '4.0.0',
+112 silly addNameRange     '3.5.2',
+112 silly addNameRange     '4.1.0',
+112 silly addNameRange     '4.1.1',
+112 silly addNameRange     '3.5.3',
+112 silly addNameRange     '4.1.2',
+112 silly addNameRange     '3.6.0',
+112 silly addNameRange     '4.2.0',
+112 silly addNameRange     '3.7.0',
+112 silly addNameRange     '3.8.0',
+112 silly addNameRange     '4.3.0',
+112 silly addNameRange     '4.3.1',
+112 silly addNameRange     '3.8.1',
+112 silly addNameRange     '4.3.2',
+112 silly addNameRange     '3.9.0',
+112 silly addNameRange     '4.4.0',
+112 silly addNameRange     '4.4.1',
+112 silly addNameRange     '3.10.0',
+112 silly addNameRange     '3.10.1',
+112 silly addNameRange     '3.10.2',
+112 silly addNameRange     '3.10.3',
+112 silly addNameRange     '3.10.4',
+112 silly addNameRange     '4.4.2',
+112 silly addNameRange     '3.10.5',
+112 silly addNameRange     '4.4.3',
+112 silly addNameRange     '3.11.0',
+112 silly addNameRange     '4.4.4',
+112 silly addNameRange     '3.12.0',
+112 silly addNameRange     '3.12.1',
+112 silly addNameRange     '4.4.5',
+112 silly addNameRange     '3.13.0',
+112 silly addNameRange     '4.5.0',
+112 silly addNameRange     '4.5.1',
+112 silly addNameRange     '3.14.0',
+112 silly addNameRange     '4.6.0',
+112 silly addNameRange     '4.6.1',
+112 silly addNameRange     '3.15.0',
+112 silly addNameRange     '4.7.0',
+112 silly addNameRange     '3.15.1',
+112 silly addNameRange     '4.7.1',
+112 silly addNameRange     '3.15.2',
+112 silly addNameRange     '4.7.2',
+112 silly addNameRange     '4.7.3',
+112 silly addNameRange     '3.15.3',
+112 silly addNameRange     '4.7.4',
+112 silly addNameRange     '3.16.0',
+112 silly addNameRange     '4.8.0',
+112 silly addNameRange     '3.16.1',
+112 silly addNameRange     '4.8.1',
+112 silly addNameRange     '3.16.2',
+112 silly addNameRange     '4.8.2',
+112 silly addNameRange     '3.16.3',
+112 silly addNameRange     '3.16.4',
+112 silly addNameRange     '4.8.3',
+112 silly addNameRange     '3.16.5',
+112 silly addNameRange     '3.16.6',
+112 silly addNameRange     '4.8.4',
+112 silly addNameRange     '3.16.7',
+112 silly addNameRange     '4.8.5',
+112 silly addNameRange     '3.16.8',
+112 silly addNameRange     '4.8.6',
+112 silly addNameRange     '3.16.9',
+112 silly addNameRange     '4.8.7',
+112 silly addNameRange     '3.16.10',
+112 silly addNameRange     '4.8.8',
+112 silly addNameRange     '3.17.0',
+112 silly addNameRange     '3.17.1',
+112 silly addNameRange     '4.9.0',
+112 silly addNameRange     '3.17.2',
+112 silly addNameRange     '4.9.1',
+112 silly addNameRange     '4.9.2',
+112 silly addNameRange     '3.17.3',
+112 silly addNameRange     '4.9.3',
+112 silly addNameRange     '3.17.4',
+112 silly addNameRange     '4.9.4',
+112 silly addNameRange     '3.17.5',
+112 silly addNameRange     '4.9.5',
+112 silly addNameRange     '3.17.6',
+112 silly addNameRange     '3.17.7',
+112 silly addNameRange     '4.9.6',
+112 silly addNameRange     '4.9.7',
+112 silly addNameRange     '3.17.8',
+112 silly addNameRange     '4.9.8',
+112 silly addNameRange     '3.18.0',
+112 silly addNameRange     '3.18.1',
+112 silly addNameRange     '4.10.0',
+112 silly addNameRange     '3.18.2',
+112 silly addNameRange     '4.10.1',
+112 silly addNameRange     '5.0.0-alpha.1',
+112 silly addNameRange     '3.18.3',
+112 silly addNameRange     '4.10.2',
+112 silly addNameRange     '3.18.4',
+112 silly addNameRange     '4.10.3',
+112 silly addNameRange     '4.10.4' ] ]
+113 verbose addNamed [ 'express', '4.10.4' ]
+114 verbose addNamed [ '4.10.4', '4.10.4' ]
+115 silly lockFile c05f2c08-express-4-10-4 express@4.10.4
+116 verbose lock express@4.10.4 /Users/taylor/.npm/c05f2c08-express-4-10-4.lock
+117 silly lockFile 65e17ce9-s-org-express-express-4-10-4-tgz https://registry.npmjs.org/express/-/express-4.10.4.tgz
+118 verbose lock https://registry.npmjs.org/express/-/express-4.10.4.tgz /Users/taylor/.npm/65e17ce9-s-org-express-express-4-10-4-tgz.lock
+119 verbose addRemoteTarball [ 'https://registry.npmjs.org/express/-/express-4.10.4.tgz',
+119 verbose addRemoteTarball   '31aa70acdad6b6093945c30523df8537336deb58' ]
+120 info retry fetch attempt 1 at 16:35:31
+121 verbose fetch to= /var/folders/kv/hh5w3dsj08x79lbxphl4n7cm0000gn/T/npm-55449--QIumV45/registry.npmjs.org/express/-/express-4.10.4.tgz
+122 http GET https://registry.npmjs.org/express/-/express-4.10.4.tgz
+123 http 200 https://registry.npmjs.org/express/-/express-4.10.4.tgz
+124 http 200 https://registry.npmjs.org/method-override
+125 silly registry.get cb [ 200,
+125 silly registry.get   { date: 'Wed, 10 Dec 2014 00:35:31 GMT',
+125 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+125 silly registry.get     etag: '"E03TCRPQ6XOQ55O1HMGYZOJ6O"',
+125 silly registry.get     'content-type': 'application/json',
+125 silly registry.get     'cache-control': 'max-age=60',
+125 silly registry.get     'content-length': '27221',
+125 silly registry.get     'accept-ranges': 'bytes',
+125 silly registry.get     via: '1.1 varnish',
+125 silly registry.get     age: '0',
+125 silly registry.get     'x-served-by': 'cache-sjc3124-SJC',
+125 silly registry.get     'x-cache': 'HIT',
+125 silly registry.get     'x-cache-hits': '1',
+125 silly registry.get     'x-timer': 'S1418171731.286855,VS0,VE348',
+125 silly registry.get     vary: 'Accept',
+125 silly registry.get     'keep-alive': 'timeout=10, max=50',
+125 silly registry.get     connection: 'Keep-Alive' } ]
+126 silly addNameRange number 2 { name: 'method-override', range: '*', hasData: true }
+127 silly addNameRange versions [ 'method-override',
+127 silly addNameRange   [ '1.0.0',
+127 silly addNameRange     '1.0.1',
+127 silly addNameRange     '1.0.2',
+127 silly addNameRange     '2.0.0',
+127 silly addNameRange     '2.0.1',
+127 silly addNameRange     '2.0.2',
+127 silly addNameRange     '2.1.0',
+127 silly addNameRange     '2.1.1',
+127 silly addNameRange     '2.1.2',
+127 silly addNameRange     '2.1.3',
+127 silly addNameRange     '2.2.0',
+127 silly addNameRange     '2.3.0' ] ]
+128 verbose addNamed [ 'method-override', '2.3.0' ]
+129 verbose addNamed [ '2.3.0', '2.3.0' ]
+130 silly lockFile d0db1aff-method-override-2-3-0 method-override@2.3.0
+131 verbose lock method-override@2.3.0 /Users/taylor/.npm/d0db1aff-method-override-2-3-0.lock
+132 silly lockFile 3bbfb5fd-erride-method-override-2-3-0-tgz https://registry.npmjs.org/method-override/-/method-override-2.3.0.tgz
+133 verbose lock https://registry.npmjs.org/method-override/-/method-override-2.3.0.tgz /Users/taylor/.npm/3bbfb5fd-erride-method-override-2-3-0-tgz.lock
+134 verbose addRemoteTarball [ 'https://registry.npmjs.org/method-override/-/method-override-2.3.0.tgz',
+134 verbose addRemoteTarball   'fe820769594247ede8a6ca87b8eaa413084e595e' ]
+135 info retry fetch attempt 1 at 16:35:31
+136 verbose fetch to= /var/folders/kv/hh5w3dsj08x79lbxphl4n7cm0000gn/T/npm-55449--QIumV45/registry.npmjs.org/method-override/-/method-override-2.3.0.tgz
+137 http GET https://registry.npmjs.org/method-override/-/method-override-2.3.0.tgz
+138 silly lockFile 65e17ce9-s-org-express-express-4-10-4-tgz https://registry.npmjs.org/express/-/express-4.10.4.tgz
+139 silly lockFile 65e17ce9-s-org-express-express-4-10-4-tgz https://registry.npmjs.org/express/-/express-4.10.4.tgz
+140 silly lockFile c05f2c08-express-4-10-4 express@4.10.4
+141 silly lockFile c05f2c08-express-4-10-4 express@4.10.4
+142 silly lockFile 64a534c1-express express@
+143 silly lockFile 64a534c1-express express@
+144 http 200 https://registry.npmjs.org/method-override/-/method-override-2.3.0.tgz
+145 silly lockFile 3bbfb5fd-erride-method-override-2-3-0-tgz https://registry.npmjs.org/method-override/-/method-override-2.3.0.tgz
+146 silly lockFile 3bbfb5fd-erride-method-override-2-3-0-tgz https://registry.npmjs.org/method-override/-/method-override-2.3.0.tgz
+147 silly lockFile d0db1aff-method-override-2-3-0 method-override@2.3.0
+148 silly lockFile d0db1aff-method-override-2-3-0 method-override@2.3.0
+149 silly lockFile dd70539b-method-override method-override@
+150 silly lockFile dd70539b-method-override method-override@
+151 error 404 404 Not Found: bodu-parser
+151 error 404
+151 error 404 'bodu-parser' is not in the npm registry.
+151 error 404 You should bug the author to publish it
+151 error 404 It was specified as a dependency of 'todoapp'
+151 error 404
+151 error 404 Note that you can also install from a
+151 error 404 tarball, folder, or http url, or git url.
+152 error System Darwin 14.0.0
+153 error command "/Users/taylor/.nvm/v0.10.33/bin/node" "/Users/taylor/.nvm/v0.10.33/bin/npm" "install" "express" "morgan" "bodu-parser" "method-override" "--save"
+154 error cwd /Users/taylor/Desktop/Work/CRUD
+155 error node -v v0.10.33
+156 error npm -v 1.4.28
+157 error code E404
+158 verbose exit [ 1, true ]
