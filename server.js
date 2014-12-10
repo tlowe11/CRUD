@@ -71,6 +71,7 @@ app.get('/api/todos', function(req, res) {
     // create a todo, information comes from AJAX request from Angular
     Todo.create({
       text : req.body.text,
+      dueDate: req.body.text,
       done : false
     }, function(err, todo) {
       if (err)
