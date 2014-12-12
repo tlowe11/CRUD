@@ -38,11 +38,10 @@
         <div class="checkbox" ng-repeat="todo in todos">
           <label>
             <input type="checkbox" ng-click="deleteTodo(todo._id)"> {{ todo.text }}
+            {{todo.dueDate | date :"medium"}}
           </label>
         </div>
-        <label>
-          {{todo.dueDate}}
-        </label>
+
 
       </div>
     </div>
@@ -55,6 +54,8 @@
 
             <!-- BIND THIS VALUE TO formData.text IN ANGULAR -->
             <input type="text" class="form-control input-lg text-center" placeholder="I want to buy a puppy that will love me forever" ng-model="formData.text">
+
+
           </div>
 
           <!-- createToDo() WILL CREATE NEW TODOS -->
