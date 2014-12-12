@@ -38,7 +38,7 @@ app.use(methodOverride());
 //define model
 var Todo = mongoose.model('Todo', {
   text : String,
-  dueDate : Date,
+  dueDate : { type: Date },
   done: false
 });
 
@@ -77,6 +77,8 @@ app.get('/api/todos', function(req, res) {
     }, function(err, todo) {
       if (err)
         res.send(err);
+  console.log("creating todo" + req.body.dueDate);
+  // console.log("creating todo" + req.body.Date);         
 				//res.statusCode(202);
         // get and return all the todos after you create another
         Todo.find(function(err, todos) {
@@ -85,7 +87,7 @@ app.get('/api/todos', function(req, res) {
 
             res.send(err);
           });
-	    console.log(req.body);
+	    console.log(req.body.Date);
         });
 
       });
