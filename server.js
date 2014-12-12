@@ -59,9 +59,10 @@ app.get('/api/todos', function(req, res) {
 
     // if there is an error retrieving, send the error. nothing after res.send(err) will execute
     if (err)
-      res.send(err)
+      res.send(err);
 
       res.json(todos); // return all todos in JSON format
+			res.statusCode()
     });
   });
 
