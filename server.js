@@ -13,7 +13,7 @@ var methodOverride = require('method-override')
 //simulate DELETE and PUT (express4)
 
 //configuration
-mongoose.connect('mongodb://localhost:27017/mytodo')
+mongoose.connect('mongodb://localhost:27017/todo-test')
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
 db.once('open', function callback () {
@@ -59,8 +59,8 @@ app.get('/api/todos', function(req, res) {
 
     // if there is an error retrieving, send the error. nothing after res.send(err) will execute
     if (err)
-      res.send(err);
 
+      res.send(err);
       res.json(todos); // return all todos in JSON format
 			res.statusCode()
     });
@@ -68,7 +68,7 @@ app.get('/api/todos', function(req, res) {
 
   // create todo and send back all todos after creation
   app.post('/api/todos', function(req, res) {
-
+    dubugger;
     // create a todo, information comes from AJAX request from Angular
     Todo.create({
       text : req.body.text,
@@ -80,7 +80,9 @@ app.get('/api/todos', function(req, res) {
 
         // get and return all the todos after you create another
         Todo.find(function(err, todos) {
+          
           if (err)
+            dubugger;
             res.send(err)
             res.json(todos);
           });
