@@ -38,7 +38,7 @@ app.use(methodOverride());
 //define model
 var Todo = mongoose.model('Todo', {
   text : String,
-  dueDate : { type: Date, default: Date.now },
+  dueDate : Date,
   done: false
 });
 
@@ -72,7 +72,7 @@ app.get('/api/todos', function(req, res) {
     // create a todo, information comes from AJAX request from Angular
     Todo.create({
       text : req.body.text,
-      dueDate: Date.now(),
+      dueDate: req.body.Date,
       done : false
     }, function(err, todo) {
       if (err)
@@ -85,6 +85,7 @@ app.get('/api/todos', function(req, res) {
 
             res.send(err);
           });
+	    console.log(req.body);
         });
 
       });

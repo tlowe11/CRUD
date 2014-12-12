@@ -19,8 +19,10 @@ function mainController($scope, $http) {
           $http.post('/api/todos', $scope.formData)
           .success(function(data) {
 			          console.log("in success");
+
             $scope.formData = {}; // clear the form so our user is ready to enter another
             $scope.todos.push(data);
+			      $scope.todos.dueDate.push(data);
           })
           .error(function(data) {
             console.log('Error: ' + data);
